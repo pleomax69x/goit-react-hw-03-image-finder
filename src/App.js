@@ -5,7 +5,7 @@ import ImageGallery from "./components/ImageGallery";
 import Modal from "./components/Modal";
 import Button from "./components/Button";
 import LoaderDB from "./components/Loader";
-import fetchImgApi from "./components/fetchImgApi";
+import fetchImgApi from "./services/fetchImgApi";
 
 class App extends Component {
   state = {
