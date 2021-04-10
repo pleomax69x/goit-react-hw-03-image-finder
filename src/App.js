@@ -55,7 +55,7 @@ class App extends Component {
 
   fetchImage = () => {
     const { page, searchWord } = this.state;
-    const options = { page, searchWord };
+    const options = { searchWord, page };
 
     this.setState({ spiner: true });
 
